@@ -8,3 +8,7 @@
 
 # tri-state-key
 /system/bin/tri-state-key_daemon          u:object_r:tri-state-key_daemon_exec:s0
+
+# Light Hal
+/system/bin/hw/android\.hardware\.light@2\.0-service\.oneplus_msmnile    u:object_r:hal_light_msmnile_exec:s0
+
