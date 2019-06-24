@@ -138,3 +138,6 @@ DEVICE_MATRIX_FILE := $(DEVICE_PATH_COMMON)/compatibility_matrix.xml
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH_COMMON)/sepolicy/private
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += device/qcom/sepolicy/private
 BOARD_PLAT_PUBLIC_SEPOLICY_DIR += device/qcom/sepolicy/public
+
+# Vendor Security Patch Level
+VENDOR_SECURITY_PATCH := 2019-05-01
