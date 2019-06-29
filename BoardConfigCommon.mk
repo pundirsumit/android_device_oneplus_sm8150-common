@@ -149,8 +149,6 @@ ENABLE_VENDOR_RIL_SERVICE := true
 # Power
 TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/gesture_dt2w"
 
-# Sepolicy: TBD
-
 # Recovery
 TARGET_RECOVERY_PIXEL_FORMAT := "BGRA_8888"
 
@@ -175,6 +173,7 @@ DEVICE_MANIFEST_FILE := $(DEVICE_PATH_COMMON)/manifest.xml
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH_COMMON)/sepolicy/private
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += device/qcom/sepolicy/private
 BOARD_PLAT_PUBLIC_SEPOLICY_DIR += device/qcom/sepolicy/public
+BOARD_SEPOLICY_DIRS += device/qcom/sepolicy/vendor
 
 # Vendor Security Patch Level
 VENDOR_SECURITY_PATCH := 2019-05-01
