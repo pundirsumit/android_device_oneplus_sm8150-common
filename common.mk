@@ -18,7 +18,7 @@ $(call inherit-product-if-exists, vendor/oneplus/sm8150-common/sm8150-common-ven
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
 	$(LOCAL_PATH)/overlay \
-	$(LOCAL_PATH)/overlay-lineage \
+	$(LOCAL_PATH)/overlay-lineage
 
 # AID/fs configs
 PRODUCT_PACKAGES += \
@@ -284,11 +284,6 @@ PRODUCT_COPY_FILES += \
 # QMI
 PRODUCT_PACKAGES += \
 	libjson
-
-# Vibrator
-PRODUCT_PACKAGES += \
-	android.hardware.vibrator@1.0-impl \
-	android.hardware.vibrator@1.0-service
 
 # RCS
 PRODUCT_PACKAGES += \
